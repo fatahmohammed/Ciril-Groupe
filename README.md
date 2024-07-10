@@ -50,9 +50,6 @@ Dans ce projet, j'ai structuré l'organisation de manière efficace. Voici la st
 - **`json/ `** Contient les classes pour enregistrer un état de grille sous forme un fichiers JSON.
 - **`mainRun/ `** Contient deux classes Main principale pour exécuter le programme en console ou en JFrame.
 - **`simulation/`**  Contient la classe de la simulation de propagation de feu sur la grille.
-- **`resources/ `** Contient les ressources non Java.
-- **`SemulationFeuEnForetApplication`** Classe principale pour lancer l'API REST.
-
 
 ## ⚡ Prérequis
 
@@ -62,63 +59,11 @@ Dans ce projet, j'ai structuré l'organisation de manière efficace. Voici la st
 
 Avant d'exécuter les tests, assurez-vous de recharger Maven pour télécharger les dépendances nécessaires en exécutant la
 commande suivante :
-⚡⚡⚡⚡⚡⚡⚡
-```bash
-mvn clean install 
-````
+
 ## ⚡ Installation
 
 1. Clonez ce dépôt sur votre machine locale.
 2. Importez le projet dans votre environnement de développement Java préféré IntelliJ IDEA.
 3. Configurez les dépendances nécessaires .
 4. Exécutez. `Main` sous Console `main2` sous JFrame et `SemulationFeuEnForetApplication` est API REST.
-
-## Console
-![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Simulation%20sous%20console.png)
-## JFrame
-![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Simulation%20sous%20JFrame.png)
-## API REST 
-Pour utiliser cette fonctionnalité, vous aurez besoin de fournir un corps JSON. Voici un exemple :
-```json
-{
-  "hauteur": 100,
-  "largeur": 200,
-  "probabilite": 0.5,
-  "feuxInitials": [
-    [4, 4],
-    [6, 8]
-  ]
-}
-```
-![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Simulation%20sous%20API%20REST.png)
-
-## un exemple d'ensemble d'états en image aprés simulation  
-![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20140.png)
-![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20141.png)
-![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20142.png)
-![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20143.png)
-![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20144.png)
-![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20145.png)
-![](https://github.com/fatahmohammed/Ciril-Group-Semulation-Feu-Foret/blob/main/Etat%20160.png)
-
-## un exemple d'un d'état en JSON
-```json
-{"Etat 0": [
-
-    ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
-    ["ARBRE","ARBRE","EN_FEU","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
-    ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
-    ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
-    ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
-    ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","EN_FEU","ARBRE","ARBRE","ARBRE","ARBRE"],
-    ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
-    ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
-    ["ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"],
-    ["ARBRE","EN_FEU","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE","ARBRE"]
-]}
-```
-
-
-
-
 
