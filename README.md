@@ -6,7 +6,7 @@ Ce projet simule la propagation du feu dans une grille en utilisant un modèle p
 ![Description de la vidéo](https://img.youtube.com/vi/ID_DE_LA_VIDEO/0.jpg)
 [Regarder la vidéo](https://www.youtube.com/watch?v=lr0V1TrIKwA)
 
-![Description de la vidéo](https://img.youtube.com/vi/ID_DE_LA_VIDEO/0.jpg)
+![Description de la vidéo](https://github.com/fatahmohammed/Ciril-Groupe/blob/main/Code%20vid%C3%A9o.png)
 [Regarder la vidéo](https://www.youtube.com/watch?v=4ObO7wQ9HJw)
 
 ## Algorithme
