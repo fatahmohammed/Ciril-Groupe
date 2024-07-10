@@ -3,7 +3,7 @@
 # Simulation de propagation de feu
 
 Ce projet simule la propagation du feu dans une grille en utilisant un modèle probabiliste. Les cases de la grille peuvent être dans l'un des trois états : ARBRE, EN_FEU, ou CENDRE.
-![Description de la vidéo](https://img.youtube.com/vi/ID_DE_LA_VIDEO/0.jpg)
+![Description de la vidéo](https://github.com/fatahmohammed/Ciril-Groupe/blob/main/Applicatin%20Vid%C3%A9o.png)
 [Regarder la vidéo](https://www.youtube.com/watch?v=lr0V1TrIKwA)
 
 ![Description de la vidéo](https://github.com/fatahmohammed/Ciril-Groupe/blob/main/Code%20vid%C3%A9o.png)
