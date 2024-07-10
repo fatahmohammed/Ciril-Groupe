@@ -2,7 +2,7 @@ package com.fatah.simulationfeuenforet.frame;
 
 import com.fatah.simulationfeuenforet.simulation.SimulationForetEnFeu1;
 import com.fatah.simulationfeuenforet.pointinitiale.PointParCercle;
-import com.fatah.simulationfeuenforet.zonecombistible.FireDetection;
+import com.fatah.simulationfeuenforet.zonecombistible.ZoneDetection;
 
 import javax.swing.*;
 import javax.swing.border.TitledBorder;
@@ -61,7 +61,7 @@ public class InterfaceParImageSat extends JFrame {
     private List<String[]> feuxInitialsInfoPoint;
     private int indiceDirection=0;
     List<String> directions = Arrays.asList("N", "NE", "E", "SE", "S", "SW", "W", "NW");  //  @jve:decl-index=0:
-    FireDetection fireDetection;
+    ZoneDetection fireDetection;
     private int[][] originaleImage;
     private int[][] imageZone;
     public InterfaceParImageSat() {
@@ -151,8 +151,8 @@ public class InterfaceParImageSat extends JFrame {
                 instanceAfficherPointsMouveMouse=true;
                 conditionPositionActiv=true;
                 path=MouseClick.chargerImage();
-                fireDetection = new FireDetection();
-                FireDetection.main1234(path);
+                fireDetection = new ZoneDetection();
+                ZoneDetection.main1234(path);
                 MouseClick.updateImageLabel(path, jLabel,scrollPane,countour,ImageOriginale,
                         ZoneCombustible,infoPoint,ChargerImage,Star,jScrollPane,jPanel);
                 countour.setSelected(false);
@@ -239,7 +239,7 @@ public class InterfaceParImageSat extends JFrame {
             Star.setBounds(new Rectangle(130, 320, 150, 20));
             Star.addActionListener(e -> {
 
-                FireDetection.main1234(path);
+                ZoneDetection.main1234(path);
                 originaleImage=fireDetection.getOriginale();
                 imageZone=fireDetection.getImageZone();
                 double probabilite= (double)jSlider.getValue()/100;

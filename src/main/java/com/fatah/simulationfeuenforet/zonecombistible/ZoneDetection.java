@@ -6,7 +6,7 @@ import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
 import org.opencv.highgui.HighGui;
 
-public class FireDetection {
+public class ZoneDetection {
     static {
         // Changez ce chemin vers le chemin où vous avez extrait OpenCV
         System.load("C:/opencv_java4100.dll");
